@@ -11,7 +11,7 @@ pipeline {
 
     stage('Checkout Source') {
       steps {
-        git credentialsId: 'githublogin', url: 'https://github.com/yustao01/nodeapp_test.git"
+        git credentialsId: 'githublogin', url: 'https://github.com/yustao01/nodeapp_test.git'
 #checkout([$class: 'GitSCM', branches: [[name: '*/master']], extensions: [], userRemoteConfigs: [[credentialsId: 'githublogin', url: 'https://github.com/yustao01/nodeapp_test.git']]])
       }
     }
