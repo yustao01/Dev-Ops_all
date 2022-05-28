@@ -11,7 +11,7 @@ pipeline {
 
     stage('Checkout Source') {
       steps {
-        git 'https://github.com/yustao01/Dev-Ops_all.git'
+        git 'https://github.com/yustao01/nodeapp_test.git'
       }
     }
 
