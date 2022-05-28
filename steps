@@ -1,0 +1,11 @@
+Jenkins integration with Kubernetes
+- Create Jenkins as Docker Container
+- Use same Docker machine as Jenkins slave to run
+- Docker pipeline plugin
+- Install Kubernetes continuous Plugin
+- Configure Kubernetes Plugin Kube Config file
+- Write Jenkins Pipeline
+- Build Docker Image
+- Push Image to Docker Registry
+- Pull the images from Docker Registry and Deploy to Kubernetes Cluster
+- Access the deployment from the 
