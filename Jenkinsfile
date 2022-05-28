@@ -11,7 +11,7 @@ pipeline {
 
     stage('Checkout Source') {
       steps {
-        git 'https://github.com/yustao01/nodeapp_test.git'
+        git 'git credentialsId: 'githublogin', url: 'https://github.com/yustao01/nodeapp_test.git'
       }
     }
 
